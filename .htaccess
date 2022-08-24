@@ -1,0 +1,9 @@
+#deny from all
+#<Files index.php>
+#    allow from all
+#</Files>
+
+
+#<FilesMatch "\.(ico|pdf|jpg|jpeg|png|gif|js|css|ttf|woff|woff2)?$">
+#    allow from all
+#</FilesMatch>

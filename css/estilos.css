@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+
+}
+body{
+  background-image: url("../img/login11.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#contenedor{
+  width: auto;
+  height: auto;
+  background: #E8EEEB;
+  margin: 0.5em auto;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+#cabeza{
+  width: 1000px;
+  height: 160px;
+  background: #4960EA;
+  border-radius: 1em;
+  margin: 1em;
+  box-shadow: 5px 0px 10px #939393;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+#cab{
+  height: 5%;
+  background: #4960EA;
+  border-radius: 1em;
+  margin: 1em;
+  box-shadow: 5px 0px 10px #939393;
+}
+.arriba > li{
+  position: relative;
+  display: inline-block;
+}
+
+.arriba > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  font-family: tahoma;
+  text-decoration: none;
+}
+
+.sitio{
+  float: right;
+  margin-top: 2em;
+  margin-right: 1em;
+  padding: 0em;
+  font-family: calibri;
+  font-size: 14px;
+}
+
+
+#nav{
+  height: 1%;
+  width: 1000px;
+  background: #4960EA;
+  border-radius: 1em;  
+  box-shadow: 5px 0px 10px #939393;
+
+
+}
+
+#contenido{
+  height: 71%;
+  width: 1000px;
+  background: #F5FAF8;
+  margin: 1em;
+  border-radius: 1em;
+  align-content: center;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+
+#footer{
+  height: 5%;
+  background: white;
+  border-radius: 1em;
+  margin: 1em;
+  box-shadow: 5px 0px 10px #CDCDCE;
+}
+#seccion{
+  height: 98%;
+  width: 98%;
+  background: white;
+  border-radius: 1em;
+  float: right;
+  margin: 0.5em;
+  box-shadow: 5px 0px 10px #D8D8DA;
+}
+
+#aparte{
+  height: 47%;
+  width: 25%;
+  background: #a4a4a4;
+  border-radius: 0px 20px 0px 20px;
+  float: left;
+  margin: 0.5em;
+  background-color: #E8EEEB; 
+  box-shadow: 5px 0px 10px #D8D8DA;
+}
+
+
+iframe{
+  border-radius: 1em;
+  background: white;
+  margin: 0.5em;
+  width: 100%;
+  
+}
+
+div#aparte ul{
+  list-style: none;
+}
+div#aparte ul li{
+  margin-top: 15px;
+  font-family: tahoma;
+  font-size: 18px;
+  background-color: #639bb3;
+  width: 160px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0px 20px 20px 0px;
+  padding-left: 20px;
+  box-shadow: 5px 0px 10px #939393;
+  color: white;
+}
+/*Esta tecnica del hover es para el menu desplegable*/
+div#aparte ul li:hover{
+  padding-left: 50px;
+}
+/*para el menu de navegacion-->*/
+div#nav ul li{
+  list-style: none;
+}
+.menu > li{
+  position: relative;
+  display: inline-block;
+}
+.menu > li > a{
+  display: block;
+
+  color: blue;
+  font-family: tahoma;
+  text-decoration: none;
+}
+.menu li a:hover{
+  color: #ce7d35;
+}
+.apartado li a:hover{
+  color: #ce7d35;
+}
+
+.submenu{
+  position: absolute;
+  background: #585859;
+  width: 180px;
+  display: none;
+  border-radius: 20px 20px 0px 20px;
+}
+.submenu li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: tahoma;
+  text-decoration: none;
+  text-align-last: left;
+}
+
+.menu li:hover .submenu{
+  display: block;
+}
+p{
+  color: black;
+  font-size: 22px;
+  font-family: arial;
+  margin-right: 50px;
+  margin-left: 40px;
+  text-align: justify;
+  
+}
+h1,h2,h3{
+  margin-left: 40px;
+}
+
+
